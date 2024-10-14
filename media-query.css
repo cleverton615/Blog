@@ -14,9 +14,21 @@ Grandes telas: acima de 1200px
     .principal {
       width: 768px;
     }
-    .pesquisa,
+
+    .pesquisa > h1 {
+      font-size: 2em;
+    }
+    
     .resultado {
       width: calc(100% - 80px);
+    }
+
+    .resultado > h3 {
+      font-size: 1.5em;
+    }
+
+    .resultado > p {
+      font-size: 1.2em;
     }
   }
   
@@ -25,8 +37,18 @@ Grandes telas: acima de 1200px
     .principal {
       width: 992px;
     }
-    .pesquisa,
+    .pesquisa > h1 {
+      font-size: 2em;
+    }
     .resultado {
       width: calc(100% - 80px);
+    }
+
+    .resultado > h3 {
+      font-size: 1.8em;
+    }
+
+    .resultado > p {
+      font-size: 1.5em;
     }
 }
